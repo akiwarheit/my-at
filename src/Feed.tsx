@@ -28,7 +28,7 @@ export default function Feed({ message, tags }: any) {
   return (
     <Card className={classes.root} style={{ maxWidth: 400, marginBottom: 10 }}>
       <CardContent>
-        <Typography variant="h6" component="h4">
+        <Typography variant="subtitle1" component="h4">
           {message}
         </Typography>
         <Typography className={classes.pos} color="textSecondary">

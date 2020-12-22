@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Maps from "./MapsV2";
+import MapWithADirectionsRenderer from "./Maps";
 
 function App() {
   return (
     <div className="App">
-      <Maps />
+      <MapWithADirectionsRenderer />
     </div>
   );
 }
